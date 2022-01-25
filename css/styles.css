@@ -264,3 +264,24 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.bitcoin-img img {
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bitcoin-img h2 {
+    position: absolute;
+    top: 235rem;
+    width: 100%;
+    padding-top: 60px;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+}
