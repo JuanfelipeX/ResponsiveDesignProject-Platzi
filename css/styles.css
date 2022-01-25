@@ -265,6 +265,12 @@ main {
     margin-bottom: 20px;
 }
 
+.bitcoin-img-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
 .bitcoin-img img {
     width: 100%;
     height: auto;
@@ -276,12 +282,12 @@ main {
 
 .bitcoin-img h2 {
     position: absolute;
-    top: 235rem;
-    width: 100%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding-top: 60px;
     font-size: 3rem;
     font-weight: bold;
-    line-height: 2.6rem;
     color: var(--just-white);
     text-align: center;
 }
