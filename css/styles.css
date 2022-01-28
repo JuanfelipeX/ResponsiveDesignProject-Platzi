@@ -410,3 +410,26 @@ main {
 .color-gray {
     background-color: var(--grey);
 }
+
+footer {
+    width: 100vw;
+    min-width: 320px;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+footer ul li a {
+    color: var(--just-white);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-decoration: none;
+}
